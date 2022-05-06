@@ -52,12 +52,12 @@
           "name": "DB_PASSWORD"
         },
         {
-          "label": "ADMIN_USERNAME",
-          "name": "ADMIN_USERNAME"
+          "label": "OWNCLOUD_ADMIN_USERNAME",
+          "name": "OWNCLOUD_ADMIN_USERNAME"
         },
         {
-          "label": "ADMIN_PASSWORD",
-          "name": "ADMIN_PASSWORD"
+          "label": "OWNCLOUD_ADMIN_PASSWORD",
+          "name": "OWNCLOUD_ADMIN_PASSWORD"
         },
         {
           "label": "PORT",

@@ -1,17 +1,16 @@
-version: '3'
 services:
-  mate-desktop-lmu:
+  mate-desktop-${DESKTOPNAME}:
     security_opt:
     - seccomp:unconfined
     shm_size: "2gb"
     environment:
-    - PASSWORD=mate
-    - USER=mate
+    - PASSWORD=${YOURPASSWORD}
+    - USER=${YOURUSERNAME}
     cap_add:
     - SYS_PTRACE
-    image: ramirezfx/ubuntu-mate-desktop-001-de:jammy
+    image: ramirezfx/ubuntu-mate-desktop-001-de:${$VERSION}
     restart: always
     stdin_open: true
     tty: true
     ports:
-    - 4010:4000/tcp
+    - ${YOURPORT}:4000/tcp

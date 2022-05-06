@@ -27,6 +27,25 @@
 		},
 		{
 			"categories": [
+				"Cloud",
+				"Productivity",
+				"Tools",
+				"Other",
+				"Web"
+			],
+			"description": "Ubuntu-Mate",
+			"logo": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/nextcloud-icon.png",
+			"name": "ubuntumate",
+			"platform": "linux",
+			"repository": {
+				"stackfile": "yaml/ubuntu-mate.yml",
+				"url": "https://github.com/ramirezfx/docker"
+			},
+			"title": "Ubuntu-Mate",
+			"type": 3
+		},
+		{
+			"categories": [
 				"Other",
 				"Tools"
 			],
